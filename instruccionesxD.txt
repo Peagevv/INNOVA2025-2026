@@ -1,0 +1,14 @@
+Hola, buenas noch@s
+Debes instalar node.js: https://nodejs.org/es/download
+Si todo sale bien verificalo con el comando:
+ node -v (puede ser en el cmd o la terminal de VSC)
+Despues verifica si tienes yarn con el comando:
+ yarn -v (se supone que se instala cuando ya instalaste el node.js)
+  sirve para instalar librerias, es de meta y la alternativa a el es npm.
+
+Posteriormente instalar las librerias necesarias: 
+ npm install three @react-three/fiber @react-three/drei
+  // de lo que llevo solo ha sido eso
+
+ Para levantar el servido local usa el comando:
+  yarn dev
