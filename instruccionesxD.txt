@@ -1,14 +1,60 @@
 Hola, buenas noch@s
+
 Debes instalar node.js: https://nodejs.org/es/download
+
 Si todo sale bien verificalo con el comando:
- node -v (puede ser en el cmd o la terminal de VSC)
+    node -v (puede ser en el cmd o la terminal de VSC)
+
 Despues verifica si tienes yarn con el comando:
- yarn -v (se supone que se instala cuando ya instalaste el node.js)
+    yarn -v (se supone que se instala cuando ya instalaste el node.js)
   sirve para instalar librerias, es de meta y la alternativa a el es npm.
+para instalarlo usas el siguiente comando:
+    npm install -g yarn //asi se instala de manera global, osea que este disponible en cualquier carpeta, es mas facil asi porque no tienes que 
+    instalarlo en cada carpeta que vayas a usar
+
+para instalar npm ocupamos una version sugerida: Node.js v20.x LTS
+verificas la instalacion con los siguiente comandos:
+    node -v
+    npm -v
+si ya tienes el Node lo instalas con el siguiente comando:
+    npm install -g npm
+
+RECOMENDACIŠON: VERIFICA LAS VARIABLES DE ENTORNO (PATH, asi te evitas contratiempos xD)
 
 Posteriormente instalar las librerias necesarias: 
- npm install three @react-three/fiber @react-three/drei
+    npm install three @react-three/fiber @react-three/drei
   // de lo que llevo solo ha sido eso
 
  Para levantar el servido local usa el comando:
-  yarn dev
+    yarn dev
+
+En este caso vamos a usar un "box", practicamente es un 3d pero en HDR, esto sera solamente para que el ambiente no se sienta vacio.
+Descargue algunos de la plataforma CGtrader, date una vuelta tambien por PolyPizza y Mixamo, haremos algunos cambios en blender.
+
+Para cuando hagamos pruebas para ver si funciona bien y asi, usaremos Vercel, esta "aplicación" nos permitirá correr nuestro juego en 
+VR de manera más fácil.
+ https://vercel.com/
+
+Posteriormente a esto, puedes clonar mi repositorio con el siguiente comando:
+     git clone https://github.com/peagevv/INNOVA2025-2026.git
+    
+//Subir cambios a git:
+    git add . //el punto es para todo
+    git commit -m "nombre del cambio"
+    git push // sube el codigo
+//para trabajar con ramas en git:
+    git branch //ves las ramas locales
+    git branch nombre-de-la-rama // crear una rama
+    git checkout nombre-de-la-rama //moverte de rama
+Las ramas se van a estar usando para hacer pruebas o experimentar, asi no dačamos la rama principal
+
+Te dejo el sitio web de React Three Fiber para que nos apoyemos de el cuando lo necesitemos:
+    https://r3f.docs.pmnd.rs/getting-started/introduction
+    // nos ayudara con lo del VR
+
+Sitio web para aprender un poco mas de blender:
+    https://superhivemarket.com/products/simplebake---simple-pbr-and-other-baking-in-blender-2 //aunque no lo creo necesario pero aja
+
+Repos super utiles:
+    https://github.com/pmndrs/uikit
+            Este nos va a ayudar a tener ejemplos de como trabajar con 3d, usa npm, probablemente no lo usemos pero por si las dudas, te dejo las instrucciones
